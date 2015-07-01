@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eg">
+<head>
+	<meta charset="UTF-8">
+	<!--Javascript main-->
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<!---reset-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!--coded CSS and javascript-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/app.js"></script>
+	<title>Calculator</title>
+</head>
+
+<body>
+<div class="lg-container">
+	<nav class="intro">
+		<ul class="navBar">
+			<li class="directions"><a href="#"><h3>How it works</h3></a></li>
+			<li class="reset"><a href="#"><h3>Clear calculator</h3></a></li>
+		</ul>
+	</nav>
+
+
+	<div class="overlay">
+			<h1>How it works:</h1>
+			<h2>Enter numbers to be added, separated by a space, comma or "+". Then press "add!" button. </h2>
+			<h2>The clear button will erase the previous answers</h2>
+			<h2 id="returnLink"><a class="close" href="#">Got it? Lets Add!</a></h2>
+	</div>
+
+	<div class="calculator">
+		<h1>Basic Addition Calculator</h1>
+		<h4 class="miniDirections">Separate numbers by space, comma, or "+"</h4>
+		<form class="entryBox" id="search-term">
+			<input type="text" class="lg-box" id="inputNumbers" placeholder="00000"/>
+			<button id="addButton">Add!</button>
+		</form>
+
+		<ul id="list"><h3>Your Answer:</h3>
+			<li></li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>
